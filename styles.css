@@ -34,6 +34,11 @@ nav {
     font-weight: bold;
     color: #667eea;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
 }
 
 .nav-buttons {
@@ -574,5 +579,15 @@ input[type="date"]:focus {
     .video-meta {
         flex-direction: column;
         gap: 10px;
+    }
+
+    .nav-buttons {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .nav-buttons button {
+        flex: 1;
+        min-width: 100px;
     }
 }
